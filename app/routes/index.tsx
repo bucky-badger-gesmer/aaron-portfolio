@@ -1,14 +1,20 @@
+import { useState } from "react";
+
 export default function Index() {
+  const [count, setCount] = useState(0);
+
   return (
-    <div>
+    <div className="font-['Poppins']">
       <nav className="p-5 bg-white shadow md:flex md:items-center md:justify-between">
         <div className="flex justify-between items-center">
           <span className="text-2xl font-Poppins cursor-pointer">
             <h2>
-              <span className="text-red-400">A</span>
-              <span>aron</span>
-              <span className="text-blue-400">G</span>
-              <span>esmer</span>.com
+              <span className="text-red-400">{"<"}</span>
+              <span className="">Aaron</span>
+              <span className="text-red-400">{"/>"}</span>
+              <span className="text-blue-400">{"<"}</span>
+              <span>Gesmer</span>
+              <span className="text-blue-400">{"/>"}</span>
             </h2>
           </span>
 
@@ -31,16 +37,15 @@ export default function Index() {
               CONTACT
             </a>
           </li>
-          <li className="mx-4">
-            <a href="#" className="text-xl hover:text-cyan-500 duration-500">
-              BLOGS
-            </a>
-          </li>
         </ul>
       </nav>
-      <h1 className="text-3xl font-bold underline text-green-400">
-        Hi! My name is Aaron!
-      </h1>
+
+      <div>
+        <h1 className="text-3xl font-bold underline text-green-400">
+          Hi! My name is Aaron!<br />
+          <button onClick={() => setCount(count + 1)}>Click Me</button>: <>{count}</>
+        </h1>
+      </div>
     </div>
   );
 }
