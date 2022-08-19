@@ -9,19 +9,21 @@ const Nav = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 ">
+    <div className="flex justify-between items-center h-24 px-8 shadow">
       <h1 className="w-full text-3xl font-bold">
-        <span className="text-red-500">
-          {"<"}Aaron {"/>"}
-        </span>
-        <span className="text-blue-500">
-          {"<"}Gesmer {"/>"}
+        <span className="hover:cursor-pointer">
+          <span className="text-red-500">
+            {"<"}Aaron {"/>"}
+          </span>
+          <span className="text-blue-500">
+            {"<"}Gesmer {"/>"}
+          </span>
         </span>
       </h1>
       <ul className="hidden md:flex">
-        <li className="p-4">Home</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 hover:cursor-pointer hover:text-red-500">Home</li>
+        <li className="p-4 hover:cursor-pointer hover:text-red-500">About</li>
+        <li className="p-4 hover:cursor-pointer hover:text-red-500">Contact</li>
       </ul>
       <div className="hover:cursor-pointer block md:hidden" onClick={toggleNav}>
         {isOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -34,9 +36,15 @@ const Nav = () => {
         }
       >
         <ul className="pt-12 uppercase">
-          <li className="p-4 border-b border-gray-600">Home</li>
-          <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4 border-b border-gray-600">Contact</li>
+          <li className="p-4 border-b border-gray-600 hover:cursor-pointer hover:text-red-500">
+            Home
+          </li>
+          <li className="p-4 border-b border-gray-600 hover:cursor-pointer hover:text-red-500">
+            About
+          </li>
+          <li className="p-4 border-b border-gray-600 hover:cursor-pointer hover:text-red-500">
+            Contact
+          </li>
         </ul>
       </div>
     </div>
