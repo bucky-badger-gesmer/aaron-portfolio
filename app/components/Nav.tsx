@@ -10,7 +10,7 @@ const Nav = () => {
 
   return (
     <div className="flex justify-between items-center h-24 px-8 shadow">
-      <h1 className="w-full text-3xl font-bold">
+      <h1 className="w-full md:text-3xl text-2xl font-bold">
         <span className="hover:cursor-pointer">
           <span className="text-red-500">
             {"<"}Aaron {"/>"}
