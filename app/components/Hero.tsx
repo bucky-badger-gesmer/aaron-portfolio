@@ -27,6 +27,8 @@ const Hero = () => {
               "try new foods",
             ]}
             loop
+            cursor
+            cursorStyle="_"
           />
         </p>
       </div>
