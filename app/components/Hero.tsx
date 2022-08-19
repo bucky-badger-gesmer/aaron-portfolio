@@ -16,15 +16,15 @@ const Hero = () => {
         <p className="text-blue-500">
           <Typewriter
             words={[
-              "code",
-              "cook",
-              "collect watches",
-              "exercise",
-              "travel",
-              "watch basketball",
-              "play guitar",
-              "watch movies",
-              "try new foods",
+              "code.",
+              "cook.",
+              "collect watches.",
+              "exercise.",
+              "travel.",
+              "watch basketball.",
+              "play guitar.",
+              "watch movies.",
+              "try new foods.",
             ]}
             loop
             cursor
