@@ -25,6 +25,7 @@ const Hero = () => {
               "watch movies",
               "try new foods",
             ]}
+            loop
           />
         </p>
       </div>
