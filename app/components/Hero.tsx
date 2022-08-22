@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
       <div className="rounded-xl grid place-items-center mt-4">
         <img
-          className="w-4/5 md:w-3/4 rounded-t-xl shadow"
+          className="w-4/5 md:w-3/4 rounded-t-xl shadow-2xl"
           src="profile_pic.png"
           alt="profile"
         />
@@ -53,19 +53,19 @@ const Hero = () => {
           </ul> */}
         </div>
       </div>
-      <div className="container mx-auto bg-red-500 p-8 my-8">
+      <div className="container mx-auto p-8 my-8">
         <h1 className="text-2xl">My Projects</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="flex hover:cursor-pointer justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100 shadow-2xl">
             1
           </div>
-          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100 shadow-2xl">
             2
           </div>
-          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100 shadow-2xl">
             3
           </div>
-          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100 shadow-2xl">
             4
           </div>
         </div>
