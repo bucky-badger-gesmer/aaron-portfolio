@@ -1,5 +1,6 @@
 import Nav from '../components/Nav';
 import Hero from '../components/Hero';
+import Footer from '~/components/Footer';
 
 export default function Index() {
 
@@ -7,6 +8,7 @@ export default function Index() {
     <div className="font-['Poppins']">
       <Nav />
       <Hero />
+      <Footer />
     </div>
   );
 }
