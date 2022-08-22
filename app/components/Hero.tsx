@@ -3,7 +3,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="max-w-[800px] h-screen mx-auto mt-4 text-center flex flex-col">
+    <div className="max-w-[800px] mx-auto mt-4 text-center flex flex-col">
       <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
         Hello there! My name is <span className="text-red-500">Aaron</span>.
       </h1>
@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
       <div className="rounded-xl grid place-items-center mt-4">
         <img
-          className="w-4/5 md:w-3/4 rounded-t-xl"
+          className="w-4/5 md:w-3/4 rounded-t-xl shadow"
           src="profile_pic.png"
           alt="profile"
         />
@@ -51,6 +51,23 @@ const Hero = () => {
               <AiFillGithub size={40} />
             </li>
           </ul> */}
+        </div>
+      </div>
+      <div className="container mx-auto bg-red-500 p-8 my-8">
+        <h1 className="text-2xl">My Projects</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="flex hover:cursor-pointer justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            1
+          </div>
+          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            2
+          </div>
+          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            3
+          </div>
+          <div className="flex justify-center text-6xl border-2 border-gray-300 rounded-xl p-6 bg-gray-100">
+            4
+          </div>
         </div>
       </div>
     </div>
