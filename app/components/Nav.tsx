@@ -32,7 +32,7 @@ const Nav = () => {
         className={
           isOpen
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-600 bg-white ease-in-out duration-500"
-            : "fixed left-[-100%]"
+            : "fixed left-[-100%] top-0 w-[60%] h-full border-r border-r-gray-600 bg-white ease-in-out duration-500"
         }
       >
         <ul className="pt-12 uppercase">
