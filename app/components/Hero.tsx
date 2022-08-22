@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
       <div className="rounded-xl grid place-items-center mt-4">
         <img
-          className="w-3/4 md:w-2/3 rounded-t-xl"
+          className="w-4/5 md:w-3/4 rounded-t-xl"
           src="profile_pic.png"
           alt="profile"
         />
@@ -43,14 +43,14 @@ const Hero = () => {
           <h1 className="mt-10 md:text-5xl sm:text-4xl text-2xl font-bold md:py-6">
             Let's Connect!
           </h1>
-          <ul className="flex mx-auto jusitfy-center">
+          {/* <ul className="flex mx-auto jusitfy-center">
             <li className="hover:cursor-pointer hover:text-red-500 mx-8">
               <AiFillLinkedin size={40} />
             </li>
             <li className="hover:cursor-pointer hover:text-red-500 mx-8">
               <AiFillGithub size={40} />
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
