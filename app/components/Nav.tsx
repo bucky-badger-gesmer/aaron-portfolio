@@ -9,7 +9,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 px-8 shadow">
+    <nav className="sticky top-0 bg-white flex justify-between items-center h-24 px-8 shadow">
       <h1 className="w-full md:text-3xl text-2xl font-bold">
         <span className="hover:cursor-pointer">
           <span className="text-red-500">
@@ -47,7 +47,7 @@ const Nav = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 export default Nav;
