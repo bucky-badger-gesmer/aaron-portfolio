@@ -25,6 +25,7 @@ const Hero = () => {
               "play guitar.",
               "watch movies.",
               "try new foods.",
+              "hang out with my dog Chance.",
             ]}
             loop
             cursor
@@ -32,18 +33,26 @@ const Hero = () => {
           />
         </p>
       </div>
-      <h1 className="mt-10 md:text-5xl sm:text-4xl text-2xl font-bold md:py-6">
-        Let's Connect!
-      </h1>
-      <img src="/profile_pic.png" alt="profile" />
-      <ul className="flex mx-auto jusitfy-center">
-        <li className="hover:cursor-pointer hover:text-red-500 mx-8">
-          <AiFillLinkedin size={40} />
-        </li>
-        <li className="hover:cursor-pointer hover:text-red-500 mx-8">
-          <AiFillGithub size={40} />
-        </li>
-      </ul>
+      <div className="rounded-xl grid place-items-center mt-4">
+        <img
+          className="w-3/4 md:w-2/3 rounded-t-xl"
+          src="profile_pic.png"
+          alt="profile"
+        />
+        <div className="p-5">
+          <h1 className="mt-10 md:text-5xl sm:text-4xl text-2xl font-bold md:py-6">
+            Let's Connect!
+          </h1>
+          <ul className="flex mx-auto jusitfy-center">
+            <li className="hover:cursor-pointer hover:text-red-500 mx-8">
+              <AiFillLinkedin size={40} />
+            </li>
+            <li className="hover:cursor-pointer hover:text-red-500 mx-8">
+              <AiFillGithub size={40} />
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
