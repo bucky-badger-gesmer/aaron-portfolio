@@ -25,7 +25,7 @@ const Hero = () => {
               "play guitar.",
               "watch movies.",
               "try new foods.",
-              "hang out with my dog Chance.",
+              "hang out with my dog.",
             ]}
             loop
             cursor
